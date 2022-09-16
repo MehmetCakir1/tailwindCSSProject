@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Tailwind Project</title>
+</head>
+<body>
+    <nav class="flex justify-center items-center gap-x-6 py-5 font-bold text-blue-400 text-lg">
+        <a href="index.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="services.html">SERVICES</a>
+        <a href="contact.html">CONTACT</a>
+    </nav>
+    <img src="./images/header-photo.avif" alt="header-photo" class="w-[1152px] h-[384px] m-auto">
+    <h1 class="font-light text-6xl text-center py-5 text-green-900 border-b-2 border-gray-400 max-w-[600px] m-auto font-serif whitespace-pre-wrap">THE TRAVEL BLOG</h1>
+    <p class="text-center max-w-[500px] m-auto text-2xl uppercase py-5 text-gray-600 font-mono">Best Travel Blogs From Around The World To Inspire You</p>
+    <section class="px-9 my-9 flex justify-center flex-wrap flex-col md:flex-row">
+        <img src="./images/meet-the-team.avif" alt="photo-1" class="object-cover h-96 w-screen md:w-7/12">
+        <div class="w-full md:w-5/12 flex justify-start flex-col items-center px-4 md:px-8">
+            <img src="./images/svg1.svg" alt="best" class=" opacity-60">
+            <p class="text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quam sunt quidem inventore ab, sint, eligendi magni accusantium fuga quod, dignissimos autem modi quaerat reiciendis maiores earum amet doloribus adipisci maxime incidunt itaque natus.</p>
+            <p class="text-gray-500 font-serif mt-5">MEET THE TEAM</p>
+        </div>
+    </section>
+    <h1 class="text-center text-3xl font-mono text-gray-600 py-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h1>
+    <section class="flex flex-col sm:flex-row py-9 px-9">
+        <div class="sm:w-6/12 bg-green-300 flex justify-center flex-col items-center text-slate-500 font-bold text-xl font-mono tracking-widest">
+            <p>FEATURED DESTINATION</p>
+            <p>THE SOUTH OF FRANCE</p>
+        </div>
+        <div class="sm:w-6/12 relative">
+            <img src="./images/featured.avif" alt="photo-2" class="object-cover h-[560px] w-full" >
+        </div>
+    </section>
+    <section class="grid  md:grid-cols-2 lg:grid-cols-3 gap-12 px-9 py-9 my-8 m-auto text-center text-xl">
+        <div>
+            <a href="#"><img src="./images/commercial.avif" alt="commercial"  class="w-full h-64 mb-4 hover:opacity-60"></a> 
+            <a href="#"><p class="text-gray-600">Commercial Work</p></a>
+        </div>
+        <div>
+            <a href="#"><img src="./images/travel-guides.avif" alt="travel-guides" class="w-full h-64 mb-4 hover:opacity-60"></a> 
+            <a href="#"><p class="text-gray-600">Travel Guides</p></a>
+        </div>
+        <div>
+            <a href="#"><img src="./images/get-in-touch.avif" alt="get-in-touch" class="w-full h-64 mb-4 hover:opacity-60"></a> 
+            <a href="#"><p class="text-gray-600">Get In Touch</p></a>
+        </div>
+    </section>
+    <section class="bg-green-300 py-[60px] flex justify-center items-center flex-col">
+        <h5 class="font-serif">CHAT WITH US TODAY</h5>
+        <a href="mailto:mehmetcakir4227@gmail.com"><button class="btn bg-white py-2 px-8 mt-2 text-green-800 hover:bg-red-300 hover:text-white">LET'S WORK TOGETHER</button></a> 
+    </section>
+    <footer class="pt-[30px] pb-[50px] md:py-[120px] bg-green-800 relative text-white font-serif">
+        <div class="container m-auto md:flex justify-around">
+            <div>
+                <h1 class="text-xl md:text-5xl font-bold text-white opacity-50 text-center m-auto md:text-left max-w-[250px]">THE TRAVEL BLOG</h1>
+            </div>
+            <div class="grid grid-cols-3 mt-5 gap-x-5 sm:mt-0  justify-center items-start max-w-8/12">
+                <div class="flex flex-col justify-center items-center md:items-start text-xs sm:text-sm opacity-60">
+                    <h5 class="text-base sm:text-lg text-center">MORE INFO</h5>
+                    <a href="#" class="my-1">SHOP</a>
+                    <a href="#" class="my-1">ABOUT</a>
+                    <a href="#" class="my-1">INFO</a>
+                    <a href="#" class="my-1">FAQ</a>
+                </div>
+                <div class="flex flex-col justify-center items-center md:items-start text-xs sm:text-sm opacity-60">
+                    <h5 class="text-base sm:text-lg text-center">HELPFUL LINKS</h5>
+                    <a href="#" class="my-1">SHOP</a>
+                    <a href="#" class="my-1">ABOUT</a>
+                    <a href="#" class="my-1">INFO</a>
+                    <a href="#" class="my-1">FAQ</a>
+                </div>
+                <div class="flex flex-col justify-center items-center md:items-start text-xs sm:text-sm opacity-60">
+                    <h5 class="text-base sm:text-lg text-center">FIND OUT MORE</h5>
+                    <a href="#" class="my-1">SHOP</a>
+                    <a href="#" class="my-1">ABOUT</a>
+                    <a href="#" class="my-1">INFO</a>
+                    <a href="#" class="my-1">FAQ</a>
+                </div>
+            </div>
+        </div>
+        <h4 class="absolute bottom-5 text-center w-full text-lg sm:text-2xl ">ALL RIGHTS RESERVED</h4>
+    </footer>
+</body>
+</html>
